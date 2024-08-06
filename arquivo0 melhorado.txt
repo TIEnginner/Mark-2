@@ -1,0 +1,14 @@
+print("Olá mundo!")
+
+while True:
+    print("1: Rodar programa;")
+    print("2: Sair do programa")
+
+    b = input("Digite uma opção: ")
+    
+    if b == '2':
+        break
+    elif b == '1':
+        print("Por favor deixe um feedback para este trecho de código!\nComprando o pacote premium, você receberá versões extendidas de códigos como esse e muito mais!\nEntre em contato conosco a partir do dono desse repertório, obrigado por ler até aqui e nos vemos na próxima! XD")
+    else:
+        print("Foi mal, não temos easter eggs dessa vez.")
